@@ -1,0 +1,61 @@
+
+> periyar-research@0.1.0 start
+> next start
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+undefined NaN
+[33m[1mWarning: [22m[39mFor production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'yarn add sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+
+> periyar-research@0.1.0 start
+> next start -p 4000
+
+- ready started server on 0.0.0.0:4000, url: http://localhost:4000
+Error: Could not find a production build in the '/home/hari/periyar-web/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at NextNodeServer.getBuildId (/home/hari/periyar-web/node_modules/next/dist/server/next-server.js:344:23)
+    at new Server (/home/hari/periyar-web/node_modules/next/dist/server/base-server.js:151:29)
+    at new NextNodeServer (/home/hari/periyar-web/node_modules/next/dist/server/next-server.js:172:9)
+    at NextServer.createServer (/home/hari/periyar-web/node_modules/next/dist/server/next.js:179:24)
+    at async /home/hari/periyar-web/node_modules/next/dist/server/next.js:200:31
+    at async NextServer.prepare (/home/hari/periyar-web/node_modules/next/dist/server/next.js:160:24)
+    at async Server.<anonymous> (/home/hari/periyar-web/node_modules/next/dist/server/lib/render-server.js:121:17) {
+  type: 'Error'
+}
+
+> periyar-research@0.1.0 start
+> next start -p 4000
+
+- ready started server on 0.0.0.0:4000, url: http://localhost:4000
+Error: Could not find a production build in the '/home/hari/periyar-web/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at NextNodeServer.getBuildId (/home/hari/periyar-web/node_modules/next/dist/server/next-server.js:344:23)
+    at new Server (/home/hari/periyar-web/node_modules/next/dist/server/base-server.js:151:29)
+    at new NextNodeServer (/home/hari/periyar-web/node_modules/next/dist/server/next-server.js:172:9)
+    at NextServer.createServer (/home/hari/periyar-web/node_modules/next/dist/server/next.js:179:24)
+    at async /home/hari/periyar-web/node_modules/next/dist/server/next.js:200:31
+    at async NextServer.prepare (/home/hari/periyar-web/node_modules/next/dist/server/next.js:160:24)
+    at async Server.<anonymous> (/home/hari/periyar-web/node_modules/next/dist/server/lib/render-server.js:121:17) {
+  type: 'Error'
+}
+
+> periyar-research@0.1.0 start
+> next start -p 4000
+
+- ready started server on 0.0.0.0:4000, url: http://localhost:4000
+[33m[1mWarning: [22m[39mFor production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'yarn add sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+
+> periyar-research@0.1.0 start
+> next start -p 4000
+
+- error Failed to start server
+Error: listen EADDRINUSE: address already in use 0.0.0.0:4000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at doListen (node:net:1937:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 4000
+}

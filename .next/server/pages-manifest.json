@@ -1,0 +1,17 @@
+{
+  "/_error": "pages/_error.js",
+  "/about-us": "pages/about-us.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/admission": "pages/admission.html",
+  "/circular": "pages/circular.html",
+  "/bors-members": "pages/bors-members.html",
+  "/clone-journal": "pages/clone-journal.html",
+  "/contact": "pages/contact.html",
+  "/": "pages/index.html",
+  "/list-of-center": "pages/list-of-center.html",
+  "/list-of-guide": "pages/list-of-guide.html",
+  "/regulations": "pages/regulations.html",
+  "/downloads": "pages/downloads.js",
+  "/404": "pages/404.html"
+}
